@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_all(/* 0: qwerty */
                      KC_NUM, KC_KP_SLASH, KC_KP_ASTERISK, KC_KP_MINUS, KC_DEL, KC_HOME, MO(1),
                      KC_KP_7, KC_KP_8   , KC_KP_9,                     LCTL(KC_C),  KC_HOME,   LCTL(KC_V),
-                     KC_KP_4, KC_KP_5   , KC_KP_6,        KC_KP_PLUS,  EE_CLR, KC_MUTE,KC_MUTE,
+                     KC_KP_3, KC_KP_5   , KC_KP_6,        KC_KP_PLUS,  EE_CLR, KC_MUTE,KC_MUTE,
                      KC_KP_1, KC_KP_2   , KC_KP_3, 
                      KC_KP_0, KC_KP_DOT , KC_PENT),
     [1] = LAYOUT_all(/* 1: fn */
